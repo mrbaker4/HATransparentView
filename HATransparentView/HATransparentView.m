@@ -56,7 +56,6 @@
     [viewOut setTimingFunction:[CAMediaTimingFunction functionWithName:kCAMediaTimingFunctionEaseInEaseOut]];
     [[self.superview layer] addAnimation:viewOut forKey:kCATransitionFade];
     
-    [[UIApplication sharedApplication] setStatusBarStyle:self.statusBarStyle];
     [self removeFromSuperview];
 }
 
